@@ -6,4 +6,8 @@ function teamObj(name, level) {
   return obj;
 }
 
+let testTeam = teamObj('Unicron');
+
+console.log(testTeam)
+
 module.exports = teamObj;
